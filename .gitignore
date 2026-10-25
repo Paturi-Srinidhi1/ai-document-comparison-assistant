@@ -1,0 +1,29 @@
+
+# Secret files - never upload API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test and temporary files
+.pytest_cache/
+.coverage
+*.log
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated reports
+AI_Document_Comparison_Report.pdf
